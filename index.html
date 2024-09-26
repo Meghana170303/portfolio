@@ -1,122 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="./style.css" />
-    <title> My Portfolio</title>
+    <title>Personal Portfolio Page</title>
   </head>
   <body>
-    
+   
     <nav>
-      <div class="nav__logo"><a href="#">Cod<span>e</span>r.</a></div>
+        <div class="nav__logo">
+            <a href="#">Cod<span>e</span>r.</a>
+        </div>
+        <ul class="nav__menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-    <header>
+
+    <header id="home">
         <div class="section__container header__container">
             <div class="header__content">
-          <p><span>Hello</span> I'm</p>
-          <h1>Meghana</h1>
-          <p>
-            I’m a Full Stack Developer dedicated to crafting elegant and highly functional websites. Dive into my portfolio to explore my projects, skills, and professional journey!
-          </p>
-          </div>
-          <div class="header__image">
-            <img src="./images/img.jpeg" alt="headercont" />
-          </div>
-          
+                <p><span>Hello</span> I'm</p>
+                <h1>Meghana</h1>
+                <p>I’m a Full Stack Developer dedicated to crafting elegant and highly functional websites. With a keen eye for detail and a passion for technology, I focus on delivering seamless and user-friendly digital experiences. Dive into my portfolio to explore my projects, skills, and professional journey!</p>
+            </div>
+            <div class="header__image">
+                <img src="./images/img.jpeg" alt="headercont" />
+            </div>
         </div>
     </header>
-    
-    <section class="about">
-      <div class="section__container about__container">
-        <div class="about__content">
-          <h2 class="section__title">About <span>Me</span></h2>
-          <p class="about__details">
-            I am a dedicated Full Stack Developer skilled in crafting dynamic, user-friendly web applications. My expertise includes languages such as JavaScript and Python, as well as frameworks like Node.js and Django.
-          </p>
-          <div class="button-container">
-            <a href="education.html" class="btn">More About</a>
-          </div>
-        </div>
-      </div>
-    </section>
-   
-    <section class="skills">
-        <div class="section__container">
-          <h2 class="section__title">My <span>Skills</span></h2>
-          <div class="skill__grid">
-            <div class="skill__card">
-              <div class="skill__content">
-                <h3>Python</h3>
-                <p>Basic understanding of Python, including functions, loops, and lists, with a focus on building foundational coding skills.</p>
-              </div>
-            </div>
-            <div class="skill__card">
-              <div class="skill__content">
-                <h3>HTML and CSS</h3>
-                <p>Building responsive and modern websites using clean and efficient HTML & CSS techniques.</p>
-              </div>
-            </div>
-            <div class="skill__card">
-              <div class="skill__content">
-                <h3>Excel</h3>
-                <p>Basic skills in Excel for organizing data and using functions and pivot tables to analyze and understand information.</p>
-              </div>
-            </div>
-            <div class="skill__card">
-              <div class="skill__content">
-                <h3>GitHub</h3>
-                <p>Basic knowledge of GitHub for managing code versions, including creating repositories, using branches, and collaborating with others.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
 
-    <section class="projects">
+    <section id="about" class="about">
+        <div class="section__container about__container">
+            <div class="about__image"></div>
+            <div class="about__content">
+                <h2 class="section__title">About <span>Me</span></h2>
+                <p class="about__details"> I am a dedicated Full Stack Developer skilled in crafting dynamic, user-friendly web applications. With a solid grasp of both front-end and back-end technologies, I focus on building efficient and scalable solutions. My expertise includes languages such as JavaScript and Python, as well as frameworks like Node.js and Django. I excel at solving complex problems and am passionate about continually learning new technologies to advance my skills. My goal is to deliver top-notch projects that fulfill user needs and achieve business objectives, whether by creating responsive designs or ensuring smooth functionality behind the scenes.</p>
+                <a href="education.html" class="btn">More About</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
         <div class="section__container">
-          <h2 class="section__title">My <span>Projects</span></h2>
-          <div class="project__grid">
-            <div class="project__card">
-              <div class="project__content">
-                <h4>Breast Cancer Detection Using AI and ML</h4>
-                <p>This project uses AI and machine learning to analyze medical data for early breast cancer detection.</p>
-              </div>
+            <h2 class="section__title">My <span>Skills</span></h2>
+            <div class="skill__grid">
+                <div class="skill__card">
+                    <div class="skill__content">
+                        <h3>Python</h3>
+                        <p>Basic understanding of Python, including functions, loops, and lists, with a focus on building foundational coding skills.</p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <div class="skill__content">
+                        <h3>HTML and CSS</h3>
+                        <p>Building responsive and modern websites using clean and efficient HTML & CSS techniques.</p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <div class="skill__content">
+                        <h3>Excel</h3>
+                        <p>Basic skills in Excel for organizing data and using functions and pivot tables to analyze and understand information.</p>
+                    </div>
+                </div>
+                <div class="skill__card">
+                    <div class="skill__content">
+                        <h3>GitHub</h3>
+                        <p>Basic knowledge of GitHub for managing code versions, including creating repositories, using branches, and collaborating with others.</p>
+                    </div>
+                </div>
             </div>
-            <div class="project__card">
-              <div class="project__content">
-                <h4>Food Recepie Developer</h4>
-                <p>This project focuses on creating innovative food recipes using culinary techniques and data analysis.</p>
-              </div>
-            </div>
-            <div class="project__card">
-              <div class="project__content">
-                <h4>Product Landing Page</h4>
-                <p>Designing and developing a product landing page to showcase features, benefits, and calls-to-action.</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
-  
-    <footer>
-      <div class="section__container footer__container">
-        <div class="footer__content">
-          <h2 class="section__title">Contact <span>Me!</span></h2>
-          <div class="social__icons">
-            <a href="mailto:anusrimeghana17@gmail.com" class="icon"><i class="ri-mail-line"></i></a>
-            <a href="https://linkedin.com/in/anusri-meghana-11a374237" class="icon" target="_blank" rel="noopener noreferrer"><i class="ri-linkedin-fill"></i></a>
-            <a href="https://github.com/Meghana170303" class="icon" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill"></i></a>
-          </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section__container">
+            <h2 class="section__title">My <span>Projects</span></h2>
+            <div class="project__grid">
+                <div class="project__card">
+                    <div class="project__content">
+                        <h4><a href="./project1.html">Breast Cancer Detection Using AI and ML</a></h4>
+                        <p>This project uses AI and machine learning to analyze medical data for early breast cancer detection, helping doctors make faster and more accurate diagnoses.
+                        </p>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <div class="project__content">
+                        <h4><a href="./project2.html">Food Recipe Developer</a></h4>
+                        <p>This project focuses on creating innovative food recipes using a combination of culinary techniques and data analysis, aiming to develop unique and flavorful dishes that cater to various dietary preferences and needs.</p>
+                    </div>
+                </div>
+                <div class="project__card">
+                    <div class="project__content">
+                        <h4><a href="./project3.html">Product Landing Page</a></h4>
+                        <p>This project involves designing and developing an engaging product landing page to showcase features, benefits, and calls-to-action, aimed at converting visitors into customers with a compelling and user-friendly experience.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+
+    <footer id="contact">
+        <div class="section__container footer__container">
+            <div class="footer__content">
+                <h2 class="section__title">Contact <span>Me!</span></h2>
+                <div class="social__icons">
+                    <a href="mailto:anusrimeghana17@gmail.com" class="icon"><i class="ri-mail-line"></i></a>
+                    <a href="https://linkedin.com/in/anusri-meghana-11a374237" class="icon" target="_blank" rel="noopener noreferrer"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://github.com/Meghana170303" class="icon" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
-    
-  </body>
+
+    <!-- Include the external JavaScript file -->
+    <script src="./script.js"></script>
+</body>
 </html>
