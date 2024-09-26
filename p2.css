@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #ff4e05;
+  --secondary-color-dark: #bf3900;
+  --text-dark: #0d1319;
+  --text-light: #9ca3af;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+/* General Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text-light);
+  font-family: "Poppins", sans-serif;
+  background-color: var(--text-dark); /* Dark background for overall body */
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+img {
+  width: 100%;
+}
+
+/* Project Container */
+.project-page {
+  max-width: 800px; /* Limit width for better readability */
+  margin: 20px auto; /* Center the content */
+  padding: 20px;
+  background: var(--primary-color); /* Primary color for the project container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Headings */
+h2 {
+  color: var(--secondary-color); /* Use secondary color for main heading */
+  margin-bottom: 10px; /* Space below headings */
+}
+
+h3 {
+  color: var(--white); /* Use white for subheadings */
+  margin-top: 20px; /* Space above subheadings */
+}
+
+/* Image Styles */
+img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for images */
+  margin: 20px 0; /* Space above and below images */
+}
+
+/* List Styles */
+ul {
+  padding-left: 20px; /* Indent lists */
+  margin: 10px 0; /* Space above and below lists */
+}
+
+li {
+  margin-bottom: 8px; /* Space between list items */
+  color: var(--white); /* White color for list items */
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block; /* Inline-block for better padding */
+  margin-top: 20px; /* Space above button */
+  padding: 10px 20px; /* Padding around text */
+  background-color: var(--secondary-color); /* Use secondary color for buttons */
+  color: var(--white); /* White text color */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.btn:hover {
+  background-color: var(--secondary-color-dark); /* Darker shade on hover */
+}
